@@ -64,24 +64,13 @@ The system is integrated inside a **Streamlit app** for practical usage.
 
 ```mermaid
 graph TD
-    A[Historical Data CSV] -->|Ingestion| B(Cleaning & Feature Engineering)
+    A[Historical Data CSV] --> B[Cleaning & Features]
     B -->|Processed Dataset| C{Demand ML Model}
-    C -->|Predict Volume| D[Price Optimization Engine]
-    D -->|Best Price| E[Streamlit UI Dashboard]
+    C -->|Predict Volume| D[Price Optimization]
+    D -->|Best Price| E[Streamlit UI]
 
-    %% Node Styles
-    style A fill:#ffffff,stroke:#333,stroke-width:2px,color:#000
-    style B fill:#ffffff,stroke:#333,stroke-width:2px,color:#000
-    style C fill:#f96,stroke:#333,stroke-width:2px,color:#000
-    style D fill:#ffffff,stroke:#333,stroke-width:2px,color:#000
-    style E fill:#4B9CD3,stroke:#333,stroke-width:4px,color:#000
-    
-    %% Link/Edge Text Styles (Black Text for Labels)
-    linkStyle 0 stroke:#333,stroke-width:2px,color:#000
-    linkStyle 1 stroke:#333,stroke-width:2px,color:#000
-    linkStyle 2 stroke:#333,stroke-width:2px,color:#000
-    linkStyle 3 stroke:#333,stroke-width:2px,color:#000
-    linkStyle 4 stroke:#333,stroke-width:2px,color:#000
+    style C fill:#f96,stroke:#333,color:#000
+    style E fill:#4B9CD3,stroke:#333,color:#000
 
 ```
 
