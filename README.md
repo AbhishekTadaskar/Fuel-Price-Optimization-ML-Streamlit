@@ -62,3 +62,19 @@ The system is integrated inside a **Streamlit app** for practical usage.
 
 ## 🏗️ System Architecture
 
+
+
+
+
+---
+
+## 📂 Repository Contents
+
+| File | Description |
+| :--- | :--- |
+| **`app.py`** | The core Streamlit application file (UI logic and visualization). |
+| **`demand_model.pkl`** | The pre-trained Random Forest model used for demand forecasting. |
+| **`processed_training_data.csv`** | Feature-engineered dataset used for model development. |
+| **`oil_retail_history.csv`** | Historical raw dataset containing sales and pricing trends. |
+| **`today_example.json`** | A sample input file demonstrating the required data format for daily predictions. |
+| **`README.md`** | Project documentation and setup guide. |
