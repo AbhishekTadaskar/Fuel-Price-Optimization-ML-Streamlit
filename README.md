@@ -29,7 +29,7 @@ A retail fuel company can set its selling price once per day. The challenge is t
 📌 **Daily Profit Formula**
 
 \[
-\textbf{Profit = (Price − Cost) × Predicted Volume}
+{Profit = (Price − Cost) × Predicted Volume}
 \]
 
 The system predicts volume at different price levels, simulates multiple price scenarios, and recommends the **price with the highest expected profit**.
