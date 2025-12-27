@@ -62,9 +62,16 @@ The system is integrated inside a **Streamlit app** for practical usage.
 
 ## 🏗️ System Architecture
 
+```mermaid
+graph TD
+    A[Historical Data CSV] -->|Ingestion| B(Cleaning & Feature Engineering)
+    B -->|Processed Dataset| C{Demand ML Model}
+    C -->|Predict Volume| D[Price Optimization Engine]
+    D -->|Best Price| E[Streamlit UI Dashboard]
+    style C fill:#f96,stroke:#333,stroke-width:2px
+    style E fill:#4B9CD3,stroke:#333,stroke-width:4px
 
-
-
+```
 
 ---
 
